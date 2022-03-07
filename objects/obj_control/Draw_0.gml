@@ -5,7 +5,7 @@ draw_set_halign(fa_left);
 
 _x = (room_width / 2) - (global.player_lives-1) * 32;
 
-repeat(3){
+repeat(global.player_lives){
 	draw_sprite_ext(
 		spr_bat,
 		0,
